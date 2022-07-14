@@ -3,10 +3,10 @@
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section-small">
     <div class="uk-container uk-container-expand">
-        <div class="uk-grid-medium" uk-grid>
+        <div class="uk-grid-medium uk-grid" uk-grid>
             <!--fillter-->
             <div class="uk-width-1-1">
-                <form class="uk-grid-small" uk-grid>
+                <form class="uk-grid-small uk-grid" uk-grid>
                     <div class="uk-width-auto">
                         <input class="uk-input zh_37006__fillter__rangeDate" type="date" placeholder="">
                     </div>
@@ -33,7 +33,7 @@
             <!--content-main-->
             <div class="uk-width-expand">
                 <div class="uk-margin-medium">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
 
                         </div>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
                             <div class="zh_37006__content__box--right zh_37006__content__box uk-card uk-card-default uk-card-body uk-padding-small uk-text-center">
                                 Đang xử lý - 20 đơn - 20tr
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
                             <div class="zh_37006__content__box--right zh_37006__content__box uk-card uk-card-default uk-card-body uk-padding-small uk-text-center">
                                 Đang trên đường - 10 đơn - 10tr
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
 
                         </div>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
                             <div class="zh_37006__content__box--right zh_37006__content__box zh_37006__content__box--green uk-card uk-card-default uk-card-body uk-padding-small uk-text-center">
                                 Hoàn thành upsale - 20 đơn - 20tr
@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
 
                         </div>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="uk-margin-medium-top">
-                    <div class="uk-child-width-1-4@m uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-4@m uk-grid-match uk-grid" uk-grid>
                         <div>
 
                         </div>
