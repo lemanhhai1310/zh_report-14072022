@@ -1,0 +1,102 @@
+.zh_37006{
+  &__content{
+    &__box{
+      border-radius: 8px;
+      border: 1px solid #222222;
+      background-color: #C5C5C5;
+      color: #222222;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      &--right{
+        &:before{
+          content: "";
+          display: block;
+          width: 100px;
+          height: 1px;
+          background-color: #222222;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 100%;
+        }
+      }
+      &--bottom{
+        &:after{
+          content: "";
+          width: 1px;
+          height: 50px;
+          display: block;
+          background-color: #222222;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      &--top{
+        &:after{
+          content: "";
+          width: 1px;
+          height: 200px;
+          display: block;
+          background-color: #222222;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      &--yellow{
+        background-color: #FFF0C8;
+      }
+      &--blue{
+        background-color: #565CF9;
+      }
+      &--green{
+        background-color: #86C971;
+      }
+      &--hong1{
+        background-color: #FFC5C6;
+      }
+      &--hong2{
+        background-color: #E4CAD9;
+      }
+    }
+  }
+  &__fillter{
+    &__rangeDate{
+      min-width: 220px;
+    }
+    &__selectBtn{
+      text-transform: inherit;
+    }
+  }
+  &__sidebar{
+    &__title{
+      font-size: 18px;
+    }
+    &__table{
+      tr{
+        th,td{
+          font-size: 14px !important;
+          border: 1px solid;
+          border-color: #e5e5e5;
+          &:first-child{
+            text-align: center;
+          }
+        }
+        th{
+          text-transform: inherit;
+          font-weight: bold;
+          color: #5B5B5C;
+        }
+        td{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
